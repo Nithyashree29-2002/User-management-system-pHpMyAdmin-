@@ -1,0 +1,46 @@
+<html>
+<head>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="newtaskcss.css" />
+    <div class="newtask">
+      
+      <form method="get" action="addtask.jsp">
+        <label><b>ID</b></label
+        ><input type="text" name="id" id="taskid" /><br />
+        <label><b>FIRST NAME</b></label
+        ><input type="text" name="fname" id="taskname" /><br />
+        <label><b>LAST NAME</b></label
+        ><input type="text" name="lname" id="category" /><br />
+		<label><b>EMAIL</b></label
+    ><br><input type="text" name="email" id="category"><br>
+    <label><b>DESIGNATION</b></label
+      ><br><input type="text" name="designation" id="category"><br>
+	
+        <input type="hidden" name="username" value="Krithika" id="username" /><br>
+        <a href="login.jsp">
+
+          <button
+            type="submit"
+            style="color: white; background-color: black; font-size: 20px"
+            
+          >
+            ADD
+          </button>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
